@@ -1,0 +1,79 @@
+/* app.component.css */
+
+/* Overall form styling */
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Styling for Job Information form group */
+.form-group[formgroupname="jobInformation"] {
+  position: relative;
+  border: 2px solid #3498db;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  background-color: #f0f8ff; /* AliceBlue */
+}
+
+/* Styling for Applicant Information form group */
+.form-group[formgroupname="applicantInformation"] {
+  position: relative;
+  border: 2px solid #e74c3c;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  background-color: #ffe4e1; /* MistyRose */
+}
+
+/* Styling for Application Details form group */
+.form-group[formgroupname="applicationDetails"] {
+  position: relative;
+  border: 2px solid #2ecc71;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  background-color: #d0f8ce; /* Honeydew */
+}
+
+/* Styling for form group titles */
+.form-group-title {
+  position: absolute;
+  top: -10px; /* Adjust this value to control the distance from the border */
+  left: 15px; /* Adjust this value to control the horizontal position */
+  background-color: #3498db;
+  color: white;
+  padding: 0 10px;
+  margin: 0;
+}
+
+/* Label styling */
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Input and textarea styling */
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+/* Button styling */
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Optional: Hover effect for the button */
+button:hover {
+  background-color: #45a049;
+}
