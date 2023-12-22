@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 
-import { AppComponent } from './AppComponent';
+import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [AppComponent],

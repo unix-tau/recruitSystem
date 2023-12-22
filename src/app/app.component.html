@@ -60,23 +60,20 @@
     <label for="applicationStatus">Application Status:</label>
     <input id="applicationStatus" formControlName="applicationStatus" />
     <button type="button" (click)="onPrevious()">Previous</button>
-    <button type="button" (click)="onReview()">Review</button>
+    <button type="submit" (click)="onReview()">Review</button>
 
   </div>
 
 <!-- Review Section -->
 <div *ngIf="showReviewSection" class="review-section">
   <h2>Review Details</h2>
-
-  <div>
-    <strong>State:</strong> {{ currentFormState }}
-  </div>
-
-  <div *ngFor="let control of currentFormState| keyvalue">
+  
+  <ng-container *ngFor="let control of getFlattenedControls(applicationForm) | keyvalue">
     <div>
       <strong>{{ control.key }}:</strong> {{ control.value }}
     </div>
-  </div>
+  </ng-container>
+
 
   <button type="button" (click)="onEdit()">Edit</button>
   <button type="button" (click)="onSubmit()">Final Submit</button>

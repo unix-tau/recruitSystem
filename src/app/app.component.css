@@ -77,3 +77,34 @@ button {
 button:hover {
   background-color: #45a049;
 }
+
+
+/* Add your global styles if needed */
+/* Add your global styles if needed */
+/* Add your global styles if needed */
+
+.review-section {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px;
+  background-color: #f8f8f8;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.review-item {
+  margin-bottom: 30px; /* Increased margin for more spacing */
+}
+
+.review-key {
+  font-weight: bold;
+  margin-right: 100px; /* Increased margin between key and value */
+  font-size: 18px; /* Increased font size for better visibility */
+}
+
+/* Add more styles as needed */
